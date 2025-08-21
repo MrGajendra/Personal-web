@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
+import Topbar from "../blocks/Topbar";
 
-const geistSans = Geist({
+const geistSans = IBM_Plex_Sans({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+const geistMono = IBM_Plex_Sans({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Topbar />
         {children}
       </body>
     </html>
