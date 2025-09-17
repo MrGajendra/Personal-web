@@ -5,9 +5,9 @@ export default function Newsletter() {
   return (
     <section
       id="newsletter"
-      className="w-full bg-white min-h-[60vh] flex items-center justify-center px-6 py-16"
+      className="w-full  min-h-[500px] flex items-center justify-center px-6 py-16"
     >
-      <div className="max-w-3xl w-full text-center bg-gray-50 shadow-lg rounded-2xl p-10">
+      <div className="max-w-3xl w-full text-center  shadow-lg rounded-2xl p-10 bg-white/10 backdrop-blur-3xl">
         {/* Icon */}
         <div className="flex justify-center mb-6">
           <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full">
@@ -16,11 +16,11 @@ export default function Newsletter() {
         </div>
 
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
           Stay Updated with Our{" "}
-          <span className="text-blue-600">Newsletter</span>
+          <span className="text-green-500">Newsletter</span>
         </h2>
-        <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p className=" text-gray-300 text-sm mb-8 max-w-2xl mx-auto">
           Subscribe to get the latest updates, tips, and exclusive content
           directly in your inbox. No spam, we promise!
         </p>

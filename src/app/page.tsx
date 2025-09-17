@@ -15,11 +15,11 @@ import Startups from "../blocks/Startups";
 
 export default function Home() {
   return (
-    <div className="flex justify-center ">
+    <div className="">
       <div className="">
         <div className="">
           <div>
-            <div>
+            <div className="">
               <Herosec />
 
               <About />

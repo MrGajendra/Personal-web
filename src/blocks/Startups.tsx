@@ -3,13 +3,13 @@ export default function Startups() {
   return (
     <section
       id="startup"
-      className="w-full bg-white flex items-center justify-center px-6 py-20"
+      className="w-full  flex items-center min-h[500px] justify-center px-6 py-20"
     >
       <div className="max-w-4xl mx-auto text-center space-y-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-          🚀 Looking for Startups
+        <h2 className="text-2xl md:text-5xl font-bold text-white">
+          Looking for Startups
         </h2>
-        <p className="text-base md:text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
+        <p className="text-base md:text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto">
           I’m passionate about collaborating with entrepreneurs and visionaries
           to build <span className="font-semibold">innovative businesses</span>.
           Whether it’s tech, SaaS, or community-driven ideas, I’m always open to

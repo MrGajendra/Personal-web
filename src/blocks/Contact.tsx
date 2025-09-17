@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="w-full bg-white min-h-[70vh] flex items-center justify-center px-6 py-16"
+      className="w-full  min-h-[500px] flex items-center justify-center px-6 py-16"
     >
       <div className="max-w-5xl w-full grid md:grid-cols-2 gap-12 items-center">
         {/* Left Side - Illustration */}
@@ -17,10 +17,8 @@ export default function Contact() {
 
         {/* Right Side - Content */}
         <div className="flex flex-col justify-center text-center md:text-left">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            📬 Get in Touch
-          </h2>
-          <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
+          <h2 className="text-2xl font-bold text-white mb-6">Get in Touch</h2>
+          <p className="text-md text-gray-400 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
             Have a project idea, collaboration, or just want to say hello? We’d
             love to{" "}
             <span className="text-blue-600 font-semibold">hear from you</span>.
@@ -32,21 +30,21 @@ export default function Contact() {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-3 text-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-3 text-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white"
             />
             <textarea
               placeholder="Your Message"
               rows={4}
-              className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-3 text-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white"
             ></textarea>
             <button
               type="submit"
-              className="w-full md:w-auto px-8 py-3 bg-blue-600 text-white font-medium rounded-full shadow hover:bg-blue-700 transition"
+              className="w-full md:w-auto px-8 py-3 bg-purple-500 text-white font-medium rounded-full shadow hover:bg-blue-700 transition"
             >
               Send Message
             </button>

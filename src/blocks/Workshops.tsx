@@ -29,14 +29,14 @@ export default function Workshops() {
   return (
     <section
       id="workshops"
-      className="w-full bg-white py-24 px-6 min-h-screen flex items-center justify-center"
+      className="w-full  py-24 px-6 min-h-screen flex items-center justify-center"
     >
       <div className="max-w-5xl mx-auto text-center">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent mb-4">
+        <h2 className="text-3xl  font-bold text-white  mb-2">
           Workshops & Sessions
         </h2>
-        <p className="text-lg text-slate-600 py-5 mx-auto mb-16">
+        <p className="text-lg text-slate-400 py-5 mx-auto mb-16">
           Join our upcoming sessions designed to empower entrepreneurs,
           developers, and business owners with the skills to grow and innovate.
         </p>
