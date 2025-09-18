@@ -9,7 +9,7 @@ export default function Projects() {
             <p className="text-xl p-2">Menu System</p>
             <p className="text-md p-2 max-w-2xl">
               It is an online digital menu for showcasing you restaurents menu,
-              it's under beta phase but still useable, it comes with instant QR
+              its under beta phase but still useable, it comes with instant QR
               generation, link analytics and and much more. currently working on
               its Port for Wordpress Plugin so that it can be used as a
               standalone piece for restaurents websites using wordpress{" "}
