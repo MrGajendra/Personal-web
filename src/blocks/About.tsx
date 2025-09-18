@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section id="about" className="p-3 text-white py-16">
-      <div className="">
+      <div className=" sm:flex sm:justify-center sm:mx-auto ">
         {/* Left: Image */}
         <div className="flex justify-center">
           <Image
@@ -18,7 +18,7 @@ export default function About() {
         </div>
 
         {/* Right: Text */}
-        <div className=" flex flex-col gap-4 pt-5 p-5">
+        <div className=" flex flex-col gap-4 pt-5 p-5 sm:max-w-2xl">
           <h2 className="text-2xl font-bold">About Me</h2>
           <p className="">
             We are passionate about helping businesses and individuals thrive in

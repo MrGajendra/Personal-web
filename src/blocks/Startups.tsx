@@ -1,9 +1,11 @@
 // app/components/Startup.tsx
+import Link from "next/link";
+
 export default function Startups() {
   return (
     <section
       id="startup"
-      className="w-full  flex items-center min-h[500px] justify-center px-6 py-20"
+      className="w-full  flex items-center min-h[500px] justify-center px-6 py-30"
     >
       <div className="max-w-4xl mx-auto text-center space-y-6">
         <h2 className="text-2xl md:text-5xl font-bold text-white">
@@ -17,12 +19,11 @@ export default function Startups() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition">
-            Pitch Your Idea
-          </button>
-          <button className="bg-gray-100 text-gray-800 px-6 py-3 rounded-lg shadow hover:bg-gray-200 transition">
-            Learn More
-          </button>
+          <Link href={"#contact"}>
+            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition">
+              Pitch Your Idea
+            </button>{" "}
+          </Link>
         </div>
       </div>
     </section>

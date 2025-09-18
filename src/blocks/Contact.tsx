@@ -9,7 +9,7 @@ export default function Contact() {
         {/* Left Side - Illustration */}
         <div className="flex justify-center">
           <img
-            src="https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg" // replace with your actual contact illustration
+            src="/contact-here.jpg" // replace with your actual contact illustration
             alt="Contact illustration"
             className="w-full max-w-md rounded-xl shadow-lg"
           />
@@ -19,27 +19,34 @@ export default function Contact() {
         <div className="flex flex-col justify-center text-center md:text-left">
           <h2 className="text-2xl font-bold text-white mb-6">Get in Touch</h2>
           <p className="text-md text-gray-400 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
-            Have a project idea, collaboration, or just want to say hello? We’d
-            love to{" "}
+            Have a project idea, collaboration, or just want to say hello? I
+            would love to{" "}
             <span className="text-blue-600 font-semibold">hear from you</span>.
-            Drop us a message and let’s build something amazing together.
+            Drop me a message and let’s build something amazing together.
           </p>
 
           {/* Contact Form */}
-          <form className="space-y-4">
+          <form
+            className="space-y-4"
+            action={"https://formsubmit.co/gajjukumar799@gmail.com"}
+            method={"POST"}
+          >
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               className="w-full px-4 py-3 text-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white"
             />
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
               className="w-full px-4 py-3 text-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white"
             />
             <textarea
               placeholder="Your Message"
               rows={4}
+              name="message"
               className="w-full px-4 py-3 text-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white"
             ></textarea>
             <button

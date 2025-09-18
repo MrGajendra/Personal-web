@@ -22,6 +22,13 @@ export default function SocialContent() {
       desc: "Professional posts, case studies, and networking opportunities.",
       link: "#",
     },
+
+    {
+      name: "Instagram",
+      icon: "/insta.png",
+      desc: "Professional posts, case studies, and networking opportunities.",
+      link: "#",
+    },
   ];
 
   return (
@@ -39,12 +46,12 @@ export default function SocialContent() {
         </p>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 place-items-center ">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 place-items-center ">
           {socials.map((s, i) => (
             <a
               key={i}
               href={s.link}
-              className=" border border-gray-200 p-8 rounded-2xl shadow-sm hover:shadow-md transition transform hover:-translate-y-1 w-full sm:w-72 flex flex-col items-center text-center"
+              className="   p-8 rounded-2xl shadow-sm hover:shadow-md transition transform hover:-translate-y-1 w-full sm:w-72 flex flex-col items-center text-center"
             >
               <Image
                 src={`${s.icon}`}
@@ -52,8 +59,6 @@ export default function SocialContent() {
                 width={100}
                 height={100}
               />
-
-              <p className="text-gray-300 text-sm mt-4">{s.desc}</p>
             </a>
           ))}
         </div>

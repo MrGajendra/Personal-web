@@ -1,6 +1,7 @@
 // app/components/Community.tsx
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Community() {
   return (
@@ -22,7 +23,7 @@ export default function Community() {
 
         {/* Right Side - Content */}
         <div className="flex flex-col justify-center text-center md:text-left">
-          <h2 className="text-2xl font-bold text-white ">My Mission</h2>
+          <h2 className="text-2xl font-bold text-white ">Join Community</h2>
           <p className="text-lg text-gray-300 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
             I am building a{" "}
             <span className="font-semibold text-blue-600">community</span> of
@@ -33,9 +34,16 @@ export default function Community() {
           </p>
 
           <div>
-            <button className="p-3 text-white border rounded-2xl max-w-[200px]">
-              Join the Community
-            </button>
+            <Link
+              href={"https://whatsapp.com/channel/0029Vb6ZfM16buMOD2zEuV1g"}
+            >
+              <button
+                id="products"
+                className="p-3 text-white border rounded-2xl max-w-[200px]"
+              >
+                Join the Community
+              </button>
+            </Link>
           </div>
         </div>
       </div>

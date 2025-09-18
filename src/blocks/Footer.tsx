@@ -3,7 +3,7 @@
 // Data for the footer links
 const footerLinks = [
   {
-    title: "Company",
+    title: "TheGajendra",
     links: [
       { name: "About Us", href: "#" },
       { name: "Services", href: "#" },
@@ -16,7 +16,10 @@ const footerLinks = [
     links: [
       { name: "Blog", href: "#" },
       { name: "Documentation", href: "#" },
-      { name: "Support", href: "#" },
+      {
+        name: "Join Community ",
+        href: "https://whatsapp.com/channel/0029Vb6ZfM16buMOD2zEuV1g",
+      },
       { name: "Privacy Policy", href: "#" },
     ],
   },
@@ -63,7 +66,9 @@ export default function Footer() {
           <div className="md:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-8">
             {/* Brand Info */}
             <div className="sm:col-span-1">
-              <h2 className="text-2xl font-bold text-white mb-3">GK Tech</h2>
+              <h2 className="text-2xl font-bold text-white mb-3">
+                TheGajendra
+              </h2>
               <p className="text-sm leading-relaxed">
                 Building exceptional digital products with precision and
                 innovation.
@@ -90,36 +95,12 @@ export default function Footer() {
               </div>
             ))}
           </div>
-
-          {/* Newsletter Section */}
-          <div className="md:col-span-4">
-            <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-              Stay Updated
-            </h3>
-            <p className="text-sm mb-4">
-              Get the latest updates and insights delivered to your inbox.
-            </p>
-            <form className="flex flex-col sm:flex-row gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2 text-sm bg-slate-800 text-white border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
-                aria-label="Email address"
-              />
-              <button
-                type="submit"
-                className="px-6 py-2 bg-white text-slate-900 text-sm font-medium rounded-lg hover:bg-slate-200 transition-colors duration-200"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} GK Tech. All rights reserved.
+            © {new Date().getFullYear()} TheGajendra. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             {socialLinks.map((social) => (

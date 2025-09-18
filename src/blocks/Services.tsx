@@ -12,9 +12,9 @@ export default function Services() {
         <h2 className="text-3xl font-bold text-purple-500 mb-4">
           My <span className="text-purple-500">Services</span>
         </h2>
-        <p className="text-lg text-white  mx-auto mb-12 text-sm">
-          We provide cutting-edge solutions tailored to your needs. From design
-          to development, we help you bring your ideas to life.
+        <p className=" text-white  mx-auto mb-12 text-sm">
+          I provide cutting-edge solutions tailored to your needs. From design
+          to development, I help you bring your ideas to life.
         </p>
 
         {/* Services Grid */}
@@ -38,11 +38,11 @@ export default function Services() {
               <Code className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-3">
-              Web Development
+              Custom Wordpress Development
             </h3>
             <p className="text-white">
-              Custom websites and applications built with modern frameworks,
-              scalable architecture, and pixel-perfect design.
+              Custom WordPress Development From powerful plugins to
+              pixel-perfect themes Tailored for your WordPress site
             </p>
           </div>
 
@@ -51,11 +51,11 @@ export default function Services() {
               <Code className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-3">
-              Web Development
+              Consultation
             </h3>
             <p className="text-white">
-              Custom websites and applications built with modern frameworks,
-              scalable architecture, and pixel-perfect design.
+              Tech feels overwhelming? I make upgrades easy for small
+              businesses. So you can grow without the hassle.
             </p>
           </div>
         </div>
