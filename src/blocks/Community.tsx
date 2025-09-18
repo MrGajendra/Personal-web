@@ -24,7 +24,7 @@ export default function Community() {
         <div className="flex flex-col justify-center text-center md:text-left">
           <h2 className="text-2xl font-bold text-white ">My Mission</h2>
           <p className="text-lg text-gray-300 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
-            I'm building a{" "}
+            I am building a{" "}
             <span className="font-semibold text-blue-600">community</span> of
             entrepreneurs, developers, and creators — a space to{" "}
             <span className="font-semibold text-purple-600">learn</span>,{" "}
