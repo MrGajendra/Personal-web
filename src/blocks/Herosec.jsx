@@ -1,9 +1,11 @@
 // app/components/Hero.tsx
 import Image from "next/image";
+import Popup from "./Popup";
 
 export default function Herosec() {
   return (
     <section className="flex justify-center  text-white p-3 pt-8">
+      <Popup />
       {/* Container */}
       <div className="flex flex-col-reverse  sm:flex-row gap-5">
         {/* Left Content */}
