@@ -1,4 +1,5 @@
 // app/components/Contact.tsx
+
 export default function Contact() {
   return (
     <section
@@ -7,13 +8,7 @@ export default function Contact() {
     >
       <div className="max-w-5xl w-full grid md:grid-cols-2 gap-12 items-center">
         {/* Left Side - Illustration */}
-        <div className="flex justify-center">
-          <img
-            src="/contact-here.jpg" // replace with your actual contact illustration
-            alt="Contact illustration"
-            className="w-full max-w-md rounded-xl shadow-lg"
-          />
-        </div>
+        <div className="flex justify-center"></div>
 
         {/* Right Side - Content */}
         <div className="flex flex-col justify-center text-center md:text-left">
