@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Herosec from "../blocks/Herosec";
 
 import About from "../blocks/About";
